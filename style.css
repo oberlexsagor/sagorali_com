@@ -10,9 +10,9 @@ h1{
     color: orange;
 }
 .half-width{
-    width: 45%;
-    margin-left: 2%;
-    padding-left: 2px;
+    width: 40%;
+    margin-left: 4%;
+    padding-left: 4%;
     float: left;
 
 }
@@ -52,6 +52,7 @@ two different backgound image fix
     height: 500px;
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 150px;
 }
 h2{
     font-size: 40px;
@@ -59,7 +60,38 @@ h2{
 p{
     color: dimgray;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
 
+.experience-area .title-highlight{
+    color: orange;
+}
+.experience-area .single-experience{
+    box-shadow: 10px 10px 40px gainsboro;
+    border-radius: 10px;
+   height: 70%;
+   background: #fff;
+   
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
 
 
 
